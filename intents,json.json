@@ -1,0 +1,59 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hello", "Hi", "Hey", "Good morning", "Good evening"],
+      "responses": ["Hello! How can I help you?", "Hi there!", "Hey! Glad to see you."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Take care"],
+      "responses": ["Goodbye!", "See you soon!", "Bye! Have a great day!"]
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": ["How are you?", "How's it going?", "What's up?"],
+      "responses": ["I’m doing great, thanks for asking!", "I’m good, how about you?", "All good here."]
+    },
+    {
+      "tag": "name",
+      "patterns": ["What is your name?", "Who are you?", "Tell me your name"],
+      "responses": ["I’m your friendly chatbot!", "You can call me Chatbot.", "I don’t have a real name, but I’m here to help."]
+    },
+    {
+      "tag": "help",
+      "patterns": ["Can you help me?", "I need help", "Support", "Assist me"],
+      "responses": ["Of course! What do you need help with?", "Sure, tell me your problem.", "I’ll do my best to help you."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That was helpful", "Thanks a lot"],
+      "responses": ["You’re welcome!", "Glad I could help!", "Anytime!"]
+    },
+    {
+      "tag": "time",
+      "patterns": ["What time is it?", "Tell me the time", "Current time"],
+      "responses": ["Sorry, I don’t have a watch. But I can add time feature if you want!"]
+    },
+    {
+      "tag": "date",
+      "patterns": ["What is today’s date?", "Tell me the date", "Date please"],
+      "responses": ["I’m not sure, but I can be upgraded to give you today’s date."]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["What’s the weather?", "Weather today", "Is it raining?"],
+      "responses": ["I can’t check weather now, but you can connect me with a weather API!"]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["Tell me a joke", "Make me laugh", "Say something funny"],
+      "responses": ["Why don’t programmers like nature? Too many bugs!", "I would tell you a joke about UDP, but you might not get it."]
+    },
+    {
+      "tag": "creator",
+      "patterns": ["Who created you?", "Who made you?", "Your developer"],
+      "responses": ["I was created by a student like you for a project!", "Someone who loves NLP built me."]
+    }
+  ]
+}
