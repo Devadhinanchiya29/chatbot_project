@@ -1,25 +1,29 @@
-# 🤖 Chatbot Project with RAG (Retrieval-Augmented Generation)
+# Chatbot Project
 
-This project is a simple **AI-powered chatbot** that uses **LangChain + OpenAI + FAISS** to answer user queries based on custom documents.  
-It demonstrates **document embedding, vector search, and conversational AI** in Python.
+## Project Purpose
+- Simple ML-based Chatbot using Python
+- Responds automatically to user input based on predefined intents
+- Uses Logistic Regression + TF-IDF vectorization for text classification
 
----
+## Files in Repository
+1. chatbot.py       → Python code to run chatbot
+2. intents.json     → Dataset containing questions & responses
+3. readme.txt       → This instruction file
+4. requirements.txt → Python dependencies (optional)
 
-## 📌 Features
-- Load and process PDF/Text documents.
-- Split text into chunks for efficient retrieval.
-- Generate embeddings using **OpenAI embeddings**.
-- Store and search vectors using **FAISS**.
-- Answer questions with **context-aware responses**.
-- Streamlit interface for chatbot interaction.
+## How to Run
+1. Open Command Prompt in project folder
+2. Run: python chatbot.py
+3. Type messages to chat with the bot
+4. Type 'quit' to exit
 
----
+## Dependencies (if required)
+- numpy
+- scikit-learn
+- nltk
+- random
+- json
 
-## 🛠️ Tech Stack
-- **Python 3.10+**
-- **LangChain**
-- **OpenAI API**
-- **FAISS**
-- **Streamlit**
-
----
+## Optional Notes
+- Ensure Python 3.x installed
+- Both chatbot.py and intents.json must be in the same folder
